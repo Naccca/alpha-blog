@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AlphaBlog</title>
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <header>
+      <h1>Alpha-Blog</h1>
+      <nav>
+        <ul>
+          <li><%= link_to 'Home', root_path, class: action_name == 'home' ? 'active' : '' %></li>
+          <li><%= link_to 'About', about_path, class: action_name == 'about' ? 'active' : '' %></li>
+        </ul>
+      </nav>
+    </header>
+    <%= yield %>
+    <footer>
+      <p>copyright@alpha-blog 2019.</p>
+    </footer>
+  </body>
+</html>
