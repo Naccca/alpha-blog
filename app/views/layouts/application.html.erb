@@ -21,6 +21,11 @@
         </ul>
       </nav>
     </header>
+    <% flash.each do |name, msg| %>
+      <ul>
+        <li><%= msg %></li>
+        </ul>
+    <% end %>
     <%= yield %>
     <footer>
       <p>copyright@alpha-blog 2019.</p>
