@@ -7,24 +7,16 @@
     <%= csp_meta_tag %>
 
     <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
   </head>
 
   <body>
-    <header>
-      <h1>Alpha-Blog</h1>
-      <nav>
-        <ul>
-          <li><%= link_to 'Home', root_path, class: action_name == 'home' ? 'active' : '' %></li>
-          <li><%= link_to 'About', about_path, class: action_name == 'about' ? 'active' : '' %></li>
-        </ul>
-      </nav>
-    </header>
+    <%= render 'layouts/navigation' %>
     <%= render 'layouts/messages' %>
-    <%= yield %>
-    <footer>
-      <p>copyright@alpha-blog 2019.</p>
-    </footer>
+    <div class="container">
+      <%= yield %>
+    </div>
+    <%= render 'layouts/footer' %>
   </body>
 </html>
