@@ -19,19 +19,19 @@ class ArticlesController < ApplicationController
 			redirect_to article_path(@article)
 		else
 			render 'new'
+		end
 	end
-end
 
-def update
-	if @article.update(article_params)
-		flash[:success] = "Article was successfully updated"
-		redirect_to article_path(@article)
-	else 
-		render 'edit'
+	def update
+		if @article.update(article_params)
+			flash[:success] = "Article was successfully updated"
+			redirect_to article_path(@article)
+		else 
+			render 'edit'
+		end
 	end
-end
 
-def show
+	def show
 	end
 
 	def destroy
@@ -49,6 +49,4 @@ def show
 	def article_params
 		params.require(:article).permit(:title, :description)
 	end
-
-
 end
