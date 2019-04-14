@@ -1,0 +1,245 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"logged",
+				"logged_in"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"scss",
+				"Set Syntax: SCSS"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"rubo",
+				"RuboCop: Check current file"
+			],
+			[
+				"beaut",
+				"BeautifyRuby"
+			],
+			[
+				"bea",
+				"BeautifyRuby"
+			],
+			[
+				"",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/macbookpro/Projects/alpha-blog"
+	],
+	"file_history":
+	[
+		"/Users/macbookpro/Projects/alpha-blog/app/assets/stylesheets/custom.css.scss",
+		"/Users/macbookpro/Projects/alpha-blog/app/views/articles/_article.html.erb",
+		"/Users/macbookpro/Projects/alpha-blog/app/controllers/application_controller.rb",
+		"/Users/macbookpro/Projects/alpha-blog/app/controllers/pages_controller.rb",
+		"/Users/macbookpro/Projects/alpha-blog/app/views/articles/index.html.erb",
+		"/Users/macbookpro/Projects/alpha-blog/app/controllers/articles_controller.rb",
+		"/Users/macbookpro/Projects/alpha-blog/app/controllers/users_controller.rb",
+		"/Users/macbookpro/Projects/alpha-blog/app/views/articles/show.html.erb",
+		"/Users/macbookpro/Projects/alpha-blog/app/views/pages/home.html.erb",
+		"/Users/macbookpro/Projects/alpha-blog/app/views/layouts/_navigation.html.erb",
+		"/Users/macbookpro/Projects/alpha-blog/app/controllers/sessions_controller.rb",
+		"/Users/macbookpro/Projects/alpha-blog/config/routes.rb",
+		"/Users/macbookpro/Projects/alpha-blog/app/views/sessions/new.html.erb",
+		"/Users/macbookpro/Projects/alpha-blog/app/views/users/index.html.erb",
+		"/Users/macbookpro/Projects/alpha-blog/app/views/users/show.html.erb",
+		"/Users/macbookpro/Projects/alpha-blog/Gemfile",
+		"/Users/macbookpro/Projects/alpha-blog/app/helpers/application_helper.rb",
+		"/Users/macbookpro/Projects/alpha-blog/app/views/users/edit.html.erb",
+		"/Users/macbookpro/Projects/alpha-blog/app/views/users/new.html.erb",
+		"/Users/macbookpro/Projects/alpha-blog/app/views/users/_form.html.erb",
+		"/Users/macbookpro/Projects/alpha-blog/app/views/layouts/application.html.erb",
+		"/Users/macbookpro/Projects/alpha-blog/app/models/user.rb",
+		"/Users/macbookpro/Projects/alpha-blog/db/migrate/20190412181537_add_password_digest_to_users.rb",
+		"/Users/macbookpro/Projects/alpha-blog/db/migrate/20190412112938_add_user_id_to_articles.rb",
+		"/Users/macbookpro/Projects/alpha-blog/app/models/article.rb",
+		"/Users/macbookpro/Projects/alpha-blog/db/migrate/20190411170444_create_users.rb",
+		"/Users/macbookpro/Projects/alpha-blog/app/views/shared/_errors.html.erb",
+		"/Users/macbookpro/Projects/alpha-blog/app/views/articles/_form.html.erb",
+		"/Users/macbookpro/Projects/alpha-blog/app/views/layouts/_footer.html.erb",
+		"/Users/macbookpro/Projects/alpha-blog/app/views/articles/new.html.erb",
+		"/Users/macbookpro/Projects/alpha-blog/app/views/articles/edit.html.erb",
+		"/Users/macbookpro/Projects/alpha-blog/app/assets/stylesheets/application.css",
+		"/Users/macbookpro/Projects/alpha-blog/app/assets/images/alpha_blog_sea",
+		"/Users/macbookpro/Projects/alpha-blog/app/assets/javascripts/application.js",
+		"/Users/macbookpro/Projects/alpha-blog/app/views/layouts/_messages.html.erb",
+		"/Users/macbookpro/Projects/alpha-blog/db/migrate/20190406135752_create_articles.rb",
+		"/Users/macbookpro/Projects/alpha-blog/app/views/articles",
+		"/Users/macbookpro/Projects/alpha-blog/db/schema.rb",
+		"/Users/macbookpro/Projects/alpha-blog/app/views/pages/about.html.erb",
+		"/Users/macbookpro/Projects/automaton/app/models/user.rb",
+		"/Users/macbookpro/Projects/automaton/app/mailers/application_mailer.rb"
+	],
+	"find":
+	{
+		"height": 39.0
+	},
+	"find_in_files":
+	{
+		"height": 101.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 36.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 108.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "alpha-blog.sublime-project",
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"~/Projects/alpha-blog/alpha-blog.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 302.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
