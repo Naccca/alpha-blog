@@ -53,6 +53,8 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
   gem 'spring-watcher-listen', '~> 2.0.0'
+  # BeautifyRuby - HTML - https://github.com/threedaymonk/htmlbeautifier
+  gem 'htmlbeautifier'
 end
 
 group :test do
@@ -71,6 +73,3 @@ end
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
 # gem 'bootstrap', '~> 4.3.1'
-
-# BeautifyRuby - HTML - https://github.com/threedaymonk/htmlbeautifier
-gem 'htmlbeautifier'
