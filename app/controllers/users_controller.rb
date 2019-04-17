@@ -2,7 +2,7 @@ class UsersController < ApplicationController
   before_action :set_user, only: %i[edit update show]
   before_action :require_same_user, only: %i[edit update destroy]
   before_action :require_admin, only: %i[destroy]
-
+  before_action :require_guest, only: %i[new create]
   def index
     @users = User.paginate(page: params[:page], per_page: 5)
   end
@@ -65,6 +65,13 @@ class UsersController < ApplicationController
     return if logged_in? && current_user.admin?
 
     flash[:danger] = 'Only admin users can perform that action'
-    redirecy_to root_path
+    redirect_to root_path
+  end
+
+  def require_guest
+    return unless logged_in?
+
+    flash[:danger] = 'You cannot sign up if you are logged in'
+    redirect_to root_path
   end
 end

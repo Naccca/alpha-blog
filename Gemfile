@@ -63,6 +63,7 @@ group :test do
   gem 'selenium-webdriver'
   # Easy installation and use of chromedriver to run system tests with Chrome
   gem 'chromedriver-helper'
+  gem 'rails-controller-testing'
 end
 
 group :production do
@@ -73,4 +74,3 @@ end
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
 # gem 'bootstrap', '~> 4.3.1'
-gem 'rails-controller-testing'
